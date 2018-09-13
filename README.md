@@ -10,7 +10,7 @@ Simple sample implement hyperledger-fabric platform
 * [Execute chaincode](#execute)
 * [References](#refer)
 # <a name="intro">Introduction</a>
-In this article, We'll etablish a development bussiness network based on hyperledger-fabric flatform and install simple chaincode to this network.
+In this article, We'll etablish a development bussiness network based on hyperledger-fabric platform and install simple chaincode to this network.
 For more informations about Hyperledger-Fabric, see the [Hyperledger documentation](http://hyperledger-fabric.readthedocs.io/en/latest/)
 # <a name="env">Enviroment</a>
 * OS: Ubuntu 16.04.4 LTS
