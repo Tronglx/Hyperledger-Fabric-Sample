@@ -48,8 +48,7 @@ Run script:
 `~/go/src/github.com/hyperledger/Hyperledger-Fabric-Sample/first-network$ ./start.sh`
 # <a name="execute">Execute chaincode</a>
 ## Query chaincode
-`~/go/src/github.com/hyperledger/Hyperledger-Fabric-Sample/first-network$ docker exec -it cli peer chaincode query -C mychannel -n mycc -v 1.0 -c '{"Ar
-gs":["query", "a"]}'`
+`~/go/src/github.com/hyperledger/Hyperledger-Fabric-Sample/first-network$ docker exec -it cli peer chaincode query -C mychannel -n mycc -v 1.0 -c '{"Args":["query", "a"]}'`
 
 ## Invoke chaincode
 `~/go/src/github.com/hyperledger/Hyperledger-Fabric-Sample/first-network$ docker exec -it cli peer chaincode invoke -o orderer.kaopiz.com:7050 --tls true --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/kaopiz.com/orderers/orderer.kaopiz.com/msp/tlscacerts/tlsca.kaopiz.com-cert.pem -C mychannel -n mycc -v 1.0 -c '{"Args":["set", "a", "20"]}'`
