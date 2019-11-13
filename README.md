@@ -1,5 +1,5 @@
 # Hyperledger-Fabric-Sample
-Simple sample implement hyperledger-fabric platform
+Simple implementation for hyperledger-fabric platform
 # Contents
 * [Introduction](#intro)
 * [Enviroment](#env)
